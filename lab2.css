@@ -1,0 +1,45 @@
+/* Kyle Hollands - Student ID: f6084767 */
+
+/*1. Set width of the <div id=”wrapper”> to 80% and use margin property to center content
+horizontally*/
+#wrapper {
+    width: 80%;
+    margin: center;
+}
+
+/*2. Apply a double style border with a colour of your choice to all images on the page.*/
+img * {
+    border-style: double;
+    border-color: aqua;
+}
+
+/*3. All words in <h1> tag to start with capital letters.*/
+h1 {
+    text-transform: capitalize;
+}
+
+/*4. Select the div tag id=“f6xxxxxx”, change background colour to a colour of your choice and change
+font type to a font of your choice followed by fall back font types*/
+#f6084767 {
+    background-color: gold;
+    font-family: "Times New Roman", "SansSerif", "Arial";
+}
+
+/*5. Select <h4> that is inside a div with id=”f6xxxxxx” and change its margins & paddings.*/
+#f6048767 {
+    margin: 250px;
+    padding: 1em;
+}
+
+/*6. Select class=”your-first-name”, center align text and make font bold.*/
+.KyleHollands {
+    font: bold;
+    text-align: center;
+}
+
+/*7. When hovered over <nav><ul><li><a> change text colour to something else and remove
+ underline.*/
+nav ul li a:hover {
+    background: #666;
+    text decoration: none;
+}

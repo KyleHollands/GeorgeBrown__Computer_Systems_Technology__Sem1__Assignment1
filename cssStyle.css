@@ -1,0 +1,298 @@
+/*The wrapper controls the styling for the main aspects of all the pages.*/
+#wrapper {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    padding: 1em;
+    width: auto;
+    height: auto;
+    margin: 10px 5px;
+    font-family: "Calibri", Times, serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls all header styling.*/
+header {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    background-color: #c5d5cb;
+    height: auto;
+    width: auto;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*The inline-block can be used to center links, by utilizing margin 0 auto;*/
+/*Controls the styling for the link bar buttons.*/
+nav li {
+    display: inline-block;
+    padding: 1px 60px;
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    background-color: #fff;
+}
+
+/*Controls the link bar styling properties.*/
+#linkBar {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f3f0de;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Controls the hover properties for the link buttons.*/
+#linkBar li:hover {
+    background-color: #a8b6bf;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for all <a href</a> links.*/
+li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Home Page Coursera course buttons.*/
+article span {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    padding: 5px;
+    background-color: #f3f0de;
+}
+
+article span:hover {
+    background-color: #a8b6bf;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f0de;
+    box-shadow: 0px 8px 16px 0px black;
+    border-radius: 30px;
+    border: 2px ridge #9fa8a3;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.dropdown-content li {
+    margin-right: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+    border: 2px ridge #9fa8a3;
+}
+
+.dropdown-content ul li:hover {
+    background-color: #a8b6bf;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul li a:hover {
+    background-color: #a8b6bf;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Image Gallery and Video Gallery backgrounds.*/
+#imageGallery {
+    display: inline-block;
+    margin: auto 35px;
+    clear: both;
+}
+
+#imageGallery h2 {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f3f0de;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+}
+
+#videoGallery {
+    display: inline-block;
+}
+
+#videoGallery h2 {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f3f0de;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Home Page aside section containing the image and biography.*/
+#asideHomePage {
+    position: absolute;
+    top: 200px;
+    clear: both;
+    border-bottom: 2px solid darkslategrey;
+    padding-bottom: 17px;
+}
+
+#asideHomePage img {
+    border: 2px ridge #9fa8a3;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #f3f0de;
+}
+
+#biography {
+    float: left;
+    margin-top: 300px;
+    width: 400px;
+}
+
+/*Controls the styling for the Home Page article section containing the course lists, professional experience, etc.*/
+#articleHomePage {
+    height: auto;
+    margin-left: 410px;
+    border-left: 2px solid darkslategrey;
+    overflow: hidden;
+    text-align: left;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Contact Page aside section containing the contact information and social media links.*/
+#asideContactMe {
+    position: absolute;
+    top: 200px;
+    text-align: left;
+    clear: both;
+    border-right: 2px solid darkslategrey;
+    height: 525px;
+    padding-right: 10px;
+}
+
+aside li a:hover {
+    background-color: #a8b6bf;
+}
+
+aside li a {
+    border: 2px ridge #9fa8a3;
+    border-radius: 8px;
+    background-color: #f3f0de;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+/*Controls the styling for the Contact Page article section containing the Map and Map text.*/
+#articleContactMe {
+    margin-left: 325px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#map {
+    height: 415px;
+    border-radius: 8px;
+    border: 2px ridge #edd9c0;
+    margin-left: 15px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Hobby page.*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px ridge #9fa8a3;
+}
+
+table tr,
+td {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-right: 2px ridge #9fa8a3;
+    text-align: center;
+}
+
+table img {
+    border: 2px ridge #9fa8a3;
+    border-radius: 15px;
+}
+
+tr:nth-child(even) {
+    border: 2px ridge #9fa8a3;
+    background-color: #c5d5cb
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the footer on all pages.*/
+footer {
+    border-radius: 8px;
+    border: 2px ridge #9fa8a3;
+    background-color: #c5d5cb;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Image Gallery images.*/
+div.img {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Controls the styling for the Video Gallery videos.*/
+div.vid {
+    float: left;
+    border: 1px solid #ccc;
+    margin: 15px;
+    width: 275px;
+}
+
+div.vid:hover {
+    border: 1px solid #777;
+}
+
+div.vid iframe {
+    width: 100%;
+    height: auto;
+}

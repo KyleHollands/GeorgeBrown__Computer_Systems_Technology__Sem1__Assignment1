@@ -1,1 +1,3 @@
-# GeorgeBrown__Computer_Systems_Technology__Sem1__Assignment1
+Semester #1 final assignment in the Computer Systems Technology program at GeorgeBrown.
+
+The goal was to build a personal website to demonstrate HTML, CSS and JavaScript fundamental skills.

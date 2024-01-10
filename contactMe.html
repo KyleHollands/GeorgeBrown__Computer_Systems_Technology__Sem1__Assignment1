@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-------------------------------------------------------------------------------------------------------------------!-->
+
+<head>
+    <title>Web Development Assignment One - Contact Me</title>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="This is the contact page for Web Assignment One. It contains my contact information and social media links.">
+    <meta name="keywords"
+        content="Test, Lab, Manual, Web, Design, Create, HTML, Notepad++, CSS, HTML5, WebStorm, Javascript">
+    <meta http-equiv="refresh" content="60">
+    <meta name="author" content="Kyle Hollands | kylehollands@gmail.com">
+    <link rel="stylesheet" type="text/css" href="cssStyle.css">
+</head>
+<!-------------------------------------------------------------------------------------------------------------------!-->
+
+<body>
+    <!--Divides a block element into divisions!--------------------------------------------------------------------------!-->
+    <div id="wrapper">
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <br>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <nav>
+            <ul id="linkBar">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="imageGallery.html">Image Gallery</a></li>
+                <li><a href="videoGallery.html">Video Gallery</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+            </ul>
+        </nav>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <br>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <article id="articleContactMe">
+            <h2>Google Map Location</h2>
+            <div id="map"></div>
+        </article>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <aside id="asideContactMe">
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Information</h2>
+            <ul>
+                <li><b>Phone Number:</b>&nbsp;647-716-0161</li>
+            </ul>
+            <ul>
+                <li><b>E-mail Address:</b>&nbsp;kylehollands@gmail.com</li>
+            </ul>
+            <ul>
+                <li><a target="_blank" href="https://ca.linkedin.com/in/kylehollands">Linked-In</a></li>
+            </ul>
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/KyleHollands73">Facebook</a></li>
+            </ul>
+            <ul>
+                <li><a target="_blank" href="https://vimeo.com/152097606">Vimeo Demo Reel</a></li>
+            </ul>
+        </aside>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <footer>
+            <!--Adds a copyright symbol at the bottom.!-->
+            <p>&copy; 2016 - Kyle Hollands</p>
+        </footer>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <br>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <script>
+            function initMap() {
+                var uluru = { lat: 43.653750, lng: -79.397661 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 12,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYs8Vh-U7eA9s15rZQ-FiaYcczPwPr_Yk&callback=initMap"></script>
+        <script src=http://my.gblearn.com/js/loadscript.js></script>
+        <!-------------------------------------------------------------------------------------------------------------------!-->
+    </div>
+</body>
+<!-------------------------------------------------------------------------------------------------------------------!-->
+
+</html>
